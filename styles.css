@@ -218,7 +218,8 @@ body {
 }
 
 .music-player-section.active .current-song-name {
-  font-size: 40px;
+  font-size: 30px;
+  margin-bottom: 5px;
 }
 
 .music-player-section.active .controls {
@@ -228,7 +229,7 @@ body {
 
 .artist-name {
   text-align: center;
-  font-size: 20px;
+  font-size: 17px;
   text-transform: capitalize;
 }
 
@@ -265,6 +266,7 @@ body {
 
 .nav-btn {
   right: 40px;
+  
 }
 
 /* volume button */
