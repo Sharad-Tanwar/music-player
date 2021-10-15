@@ -48,6 +48,10 @@ const backToHomeBtn = document.querySelector('.music-player-section .back-btn');
 backToHomeBtn.addEventListener('click', () =>
 {
     musicPlayerSection.classList.remove('active');
+    if(volumeSlider.className.includes('active'))
+    {
+        volumeSlider.classList.remove('active');
+    }
 })
 
 ///// Access Playlist ///////
